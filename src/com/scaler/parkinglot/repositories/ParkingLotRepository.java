@@ -19,4 +19,10 @@ public class ParkingLotRepository {
 
         return null;
     }
+
+    public void save(ParkingLot parkingLot){
+
+        parkingLots.put(parkingLot.getId(),parkingLot);
+
+    }
 }
